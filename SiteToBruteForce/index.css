@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    background-color: #000000;
+    position: relative;
+}
+header{
+    text-align: center;
+    background-color: #848FFF;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 3em;
+    border-bottom: solid .3em #565FBC;
+}
+#bigPicBox{
+    font-family: 'Questrial', sans-serif;
+    text-align: center;
+    background-color: #F1CDF1;
+    position: absolute;
+    height: 30%;
+    width: 25%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 10px 30px 30px #EA7DFA,
+                inset 60px 0 120px #f0f;
+}
+#login{
+    background-color: #FFD9FF;
+    height: 80%;
+}
+#credBoxes{
+    font-size: 1.5em;
+}
+#credBoxes input{
+    text-align: center;
+    height: 3em;
+    width: 20em;
+}
